@@ -1,0 +1,44 @@
+{
+  "windows": [
+    {
+      "model": "Windows 1280 x 720",
+      "screenResolution": "1280 x 720",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.7049.42 Safari/537.36"
+    },
+    {
+      "model": "Windows 1366 x 768",
+      "screenResolution": "1366 x 768",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.7049.42 Safari/537.36"
+    },
+    {
+      "model": "Windows 1920 x 1080",
+      "screenResolution": "1920 x 1080",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.7049.42 Safari/537.36"
+    },
+    {
+      "model": "Windows 1600 x 900",
+      "screenResolution": "1600 x 900",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.7049.42 Safari/537.36"
+    },
+    {
+      "model": "Windows 1440 x 900",
+      "screenResolution": "1440 x 900",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.7049.42 Safari/537.36"
+    },
+    {
+      "model": "Windows 1680 x 1050",
+      "screenResolution": "1680 x 1050",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.7049.42 Safari/537.36"
+    },
+    {
+      "model": "Windows 1024 x 768",
+      "screenResolution": "1024 x 768",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.7049.42 Safari/537.36"
+    },
+    {
+      "model": "Windows 1920 x 1200",
+      "screenResolution": "1920 x 1200",
+      "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.7049.42 Safari/537.36"
+    }
+  ]
+}

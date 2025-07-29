@@ -1,0 +1,24 @@
+{
+  "name": "Blogger chain",
+  "steps": [
+    {
+      "url": "hiredesk-job-bank.blogspot.com",
+      "minWaitAfterNav": 13,
+      "maxWaitAfterNav": 22,
+      "actions": [
+        {
+          "type": "pop-under-click",
+          "value": "",
+          "minWait": 11,
+          "maxWait": 18
+        },
+        {
+          "type": "pop-under-click",
+          "value": "",
+          "minWait": 10,
+          "maxWait": 17
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+<!-- orderly-launch.html: Launch bots with orderly (sequential) task execution -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Orderly Bot Launch</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Orderly Bot Launch</h1>
+  <form id="orderly-launch-form">
+    <label for="bot-select">Select Bot Config:</label>
+    <select id="bot-select" name="bot">
+      <!-- Dynamically populated -->
+    </select>
+    <br><br>
+    <label for="task-chain-select">Select Task Chain:</label>
+    <select id="task-chain-select" name="taskChain">
+      <!-- Dynamically populated -->
+    </select>
+    <br><br>
+    <label>
+      <input type="checkbox" id="use-local-network" name="useLocalNetwork">
+      Use Local Network (no proxy)
+    </label>
+    <br><br>
+    <button type="submit">Launch Orderly</button>
+  </form>
+  <pre id="launch-log"></pre>
+  <script src="orderly-launch.js"></script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+{
+  "name": "whoer",
+  "url": "https://whoer.net",
+  "actions": [
+    {
+      "type": "pop-under-click",
+      "value": "",
+      "minWait": 10,
+      "maxWait": 20
+    }
+  ]
+}

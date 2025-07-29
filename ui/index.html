@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bot Manager UI</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="sidebar">
+    <h2>Bot Manager</h2>
+    <button id="createBotMenuBtn" class="menu-btn active">Create Bot</button>
+    <button id="launchBotMenuBtn" class="menu-btn">Launch Bot</button>
+    <button id="runningBotsMenuBtn" class="menu-btn">Running Bots</button>
+    <button id="createTaskMenuBtn" class="menu-btn">Create Task</button>
+    <button id="autoLaunchMenuBtn" class="menu-btn">Auto Launch</button>
+    <button id="orderlyLaunchMenuBtn" class="menu-btn">Orderly Launch</button>
+  </div>
+  <div class="container">
+    <div id="createBotMenu" class="menu-content">
+      <h2>Create Bot Family</h2>
+      <form id="createBotForm">
+        <label>Bot Family Name:</label>
+        <input type="text" id="familyName" required />
+        <label>Number of Android Bots:</label>
+        <input type="number" id="androidCount" min="1" value="1" required />
+        <label>Number of Windows Bots:</label>
+        <input type="number" id="windowsCount" min="1" value="1" required />
+        <button type="submit" class="action-btn">Create</button>
+      </form>
+      <div id="createBotSuccess" class="success-message"></div>
+    </div>
+    <div id="launchBotMenu" class="menu-content" style="display:none;">
+      <h2>Launch Bot</h2>
+      <label style="display:flex;align-items:center;margin-bottom:10px;">
+        <input type="checkbox" id="useLocalNetworkToggle" style="margin-right:8px;" />
+        Use Local Network (No Proxy)
+      </label>
+      <form id="launchBotForm">
+        <label>Bot Family Name (optional):</label>
+        <select id="launchFamilyNameSelect">
+          <option value="">Any Family (Random)</option>
+        </select>
+        <label>Android Instances:</label>
+        <input type="number" id="launchAndroidCount" min="0" value="1" required />
+        <label>Windows Instances:</label>
+        <input type="number" id="launchWindowsCount" min="0" value="1" required />
+        <label>Target Website (optional):</label>
+        <input type="text" id="targetWebsite" placeholder="e.g. https://ipscore.io" />
+        <button type="submit" class="action-btn">Launch</button>
+      </form>
+      <div id="botStats" style="margin-top:12px;color:#4299e1;font-weight:500;"></div>
+      <button id="closeBotsBtn" type="button" class="action-btn" style="margin-top:10px;background:#e53e3e;">Close All Bots</button>
+      <div id="launchBotSuccess" class="success-message"></div>
+    </div>
+    <div id="runningBotsMenu" class="menu-content" style="display:none;">
+      <h2>Running Bots</h2>
+      <!-- Active Bots Control Toggle and Panel (required for JS) -->
+      <button id="activeBotsToggle" type="button" class="action-btn" style="background:#4299e1;color:#fff;">Switch to Active Bots Control</button>
+      <div id="activeBotsControl" style="display:none;">
+        <div id="activeBotsSelect"></div>
+        <form id="sendTaskForm">
+          <button id="sendToAllBtn" type="button" class="action-btn" style="background:#4299e1;color:#fff;">Send to All</button>
+          <button id="sendToSelectedBtn" type="button" class="action-btn" style="background:#38a169;color:#fff;margin-left:8px;">Send to Selected</button>
+          <div id="sendTaskResult"></div>
+        </form>
+      </div>
+      <div id="runningBotsList">Loading...</div>
+    </div>
+    <div id="createTaskMenu" class="menu-content" style="display:none;">
+      <h2>Create Task Chain</h2>
+      <form id="createTaskForm">
+        <label>Chain Name:</label>
+        <input type="text" id="chainName" required />
+        <div id="stepsList"></div>
+        <button id="chainAddStepBtn" type="button" class="action-btn" style="background:#4299e1;color:#fff;">Add Step</button>
+        <button type="submit" class="action-btn">Save Chain</button>
+      </form>
+      <div style="margin-top:20px;">
+        <h3>Chain Preview (JSON)</h3>
+        <pre id="chainPreview" style="background:#222;color:#b5f;font-size:13px;padding:10px;border-radius:6px;max-height:300px;overflow:auto;"></pre>
+      </div>
+      <div id="createTaskSuccess" class="success-message"></div>
+    </div>
+    <div id="autoLaunchMenu" class="menu-content" style="display:none;">
+      <h2>Auto Launch</h2>
+      <label style="display:flex;align-items:center;margin-bottom:10px;">
+        <input type="checkbox" id="autoUseLocalNetworkToggle" style="margin-right:8px;" />
+        Use Local Network (No Proxy)
+      </label>
+      <form id="autoLaunchForm">
+        <label>Bot Family Name (optional):</label>
+        <select id="autoLaunchFamilyNameSelect">
+          <option value="">Any Family (Random)</option>
+        </select>
+        <label>Task:</label>
+        <select id="autoLaunchTaskSelect">
+          <option value="">None</option>
+        </select>
+        <label>Android Instances:</label>
+        <input type="number" id="autoAndroidMin" min="0" value="1" required style="width:60px;" />
+        <span>to</span>
+        <input type="number" id="autoAndroidMax" min="0" value="2" required style="width:60px;" />
+        <label>Windows Instances:</label>
+        <input type="number" id="autoWindowsMin" min="0" value="1" required style="width:60px;" />
+        <span>to</span>
+        <input type="number" id="autoWindowsMax" min="0" value="2" required style="width:60px;" />
+        <div style="margin:12px 0;">
+          <span id="autoLaunchSwitch" class="launch-switch off">Auto Launch OFF</span>
+        </div>
+      </form>
+      <div id="autoLaunchStatus"></div>
+      <div id="autoLaunchBots"></div>
+    </div>
+    <div id="orderlyLaunchMenu" class="menu-content" style="display:none;">
+      <h2>Orderly Launch</h2>
+      <form id="orderlyLaunchForm">
+        <label for="orderlyBotFamilySelect">Bot Family:</label>
+        <select id="orderlyBotFamilySelect">
+          <option value="random">Random (any family)</option>
+          <!-- Families will be populated dynamically -->
+        </select>
+        <br><br>
+        <label for="orderlyBotSelect">Bot:</label>
+        <select id="orderlyBotSelect">
+          <option value="random">Random (any bot in selected family)</option>
+          <!-- Bots will be populated dynamically -->
+        </select>
+        <br><br>
+        <label for="orderlyTaskChainSelect">Task Chain:</label>
+        <select id="orderlyTaskChainSelect">
+          <!-- Chains will be populated dynamically -->
+        </select>
+        <br><br>
+        <label>
+          <input type="checkbox" id="orderlyUseLocalNetwork" />
+          Use Local Network (no proxy)
+        </label>
+        <br><br>
+        <button type="submit">Launch Orderly</button>
+      </form>
+      <pre id="orderlyLaunchLog"></pre>
+    </div>
+  </div>
+  <div id="modal" class="modal" style="display:none;">
+    <div class="modal-content">
+      <span id="modalClose" class="close">&times;</span>
+      <div id="modalMessage"></div>
+    </div>
+  </div>
+  <script src="ui.js"></script>
+</body>
+</html>

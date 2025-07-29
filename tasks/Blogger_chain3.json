@@ -1,0 +1,449 @@
+{
+  "name": "Blogger_chain3",
+  "steps": [
+    {
+      "url": "https://hiredesk-job-bank.blogspot.com",
+      "minWaitAfterNav": 13,
+      "maxWaitAfterNav": 20,
+      "actions": [
+        {
+          "type": "pop-under-click",
+          "value": "",
+          "minWait": 16.6,
+          "maxWait": 26.7
+        },
+        {
+          "type": "pop-under-click",
+          "value": "",
+          "minWait": 14.5,
+          "maxWait": 22.2
+        },
+        {
+          "type": "click-similar-links",
+          "value": "https://hiredesk-job-bank.blogspot.com/",
+          "minWait": 13.2,
+          "maxWait": 25.6
+        },
+        {
+          "type": "pop-under-click",
+          "value": "",
+          "minWait": 13.6,
+          "maxWait": 20.2
+        }
+      ]
+    },
+    {
+      "url": "https://www.profitableratecpm.com/uiu5k0b3a?key=383bca742beaf0f9e4fd73baf5059afb",
+      "minWaitAfterNav": 14,
+      "maxWaitAfterNav": 21,
+      "actions": [
+        {
+          "type": "pop-under-click",
+          "value": "",
+          "minWait": 14,
+          "maxWait": 19
+        },
+        {
+          "type": "pop-under-click",
+          "value": "",
+          "minWait": 13,
+          "maxWait": 18
+        }
+      ]
+    },
+    {
+      "url": "https://hiredesk-job-bank.blogspot.com/",
+      "minWaitAfterNav": 13,
+      "maxWaitAfterNav": 21,
+      "actions": [
+        {
+          "type": "click-xpath",
+          "value": "/html/body/div[2]/div[7]/div/div/div/div[1]/div[1]/div/div/div[2]/div[1]/div/a",
+          "minWait": 12,
+          "maxWait": 19
+        },
+        {
+          "type": "click-xpath",
+          "value": "/html/body/div[2]/div[7]/div/div/div/div[1]/div[1]/div/div/div[2]/div[1]/div/a",
+          "minWait": 12,
+          "maxWait": 19
+        },
+        {
+          "type": "pop-under-click",
+          "value": "",
+          "minWait": 13,
+          "maxWait": 20
+        },
+        {
+          "type": "pop-under-click",
+          "value": "",
+          "minWait": 12,
+          "maxWait": 19
+        }
+      ]
+    },
+    {
+      "url": "https://hiredesk-job-bank.blogspot.com/2025/06/data-entry-clerk-job-remote_12.html",
+      "minWaitAfterNav": 14,
+      "maxWaitAfterNav": 20,
+      "actions": [
+        {
+          "type": "pop-under-click",
+          "value": "",
+          "minWait": 12,
+          "maxWait": 22
+        },
+        {
+          "type": "pop-under-click",
+          "value": "",
+          "minWait": 14,
+          "maxWait": 25
+        }
+      ]
+    },
+    {
+      "url": "https://www.profitableratecpm.com/uiu5k0b3a?key=383bca742beaf0f9e4fd73baf5059afb",
+      "minWaitAfterNav": 14,
+      "maxWaitAfterNav": 21,
+      "actions": [
+        {
+          "type": "pop-under-click",
+          "value": "",
+          "minWait": 14,
+          "maxWait": 19
+        },
+        {
+          "type": "pop-under-click",
+          "value": "",
+          "minWait": 13,
+          "maxWait": 18
+        }
+      ]
+    },
+    {
+      "url": "https://hiredesk-job-bank.blogspot.com/",
+      "minWaitAfterNav": 13,
+      "maxWaitAfterNav": 21,
+      "actions": [
+        {
+          "type": "click-xpath",
+          "value": "/html/body/div/a/img",
+          "minWait": 12,
+          "maxWait": 19
+        },
+        {
+          "type": "click-xpath",
+          "value": "/html/body/div/a/img",
+          "minWait": 12,
+          "maxWait": 19
+        },
+        {
+          "type": "pop-under-click",
+          "value": "",
+          "minWait": 13,
+          "maxWait": 20
+        },
+        {
+          "type": "pop-under-click",
+          "value": "",
+          "minWait": 12,
+          "maxWait": 19
+        }
+      ]
+    },
+    {
+      "url": "https://hiredesk-job-bank.blogspot.com/2025/06/senior-care-caregiverpersonal-support.html",
+      "minWaitAfterNav": 13,
+      "maxWaitAfterNav": 22,
+      "actions": [
+        {
+          "type": "pop-under-click",
+          "value": "",
+          "minWait": 11,
+          "maxWait": 18
+        },
+        {
+          "type": "pop-under-click",
+          "value": "",
+          "minWait": 13,
+          "maxWait": 19
+        }
+      ]
+    },
+    {
+      "url": "https://hiredesk-job-bank.blogspot.com/2025/06/telus-sales-representative-visa.html",
+      "minWaitAfterNav": 14,
+      "maxWaitAfterNav": 21,
+      "actions": [
+        {
+          "type": "pop-under-click",
+          "value": "",
+          "minWait": 14,
+          "maxWait": 19
+        },
+        {
+          "type": "pop-under-click",
+          "value": "",
+          "minWait": 13,
+          "maxWait": 18
+        }
+      ]
+    },
+    {
+      "url": "https://www.profitableratecpm.com/uiu5k0b3a?key=383bca742beaf0f9e4fd73baf5059afb",
+      "minWaitAfterNav": 14,
+      "maxWaitAfterNav": 21,
+      "actions": [
+        {
+          "type": "pop-under-click",
+          "value": "",
+          "minWait": 14,
+          "maxWait": 19
+        },
+        {
+          "type": "pop-under-click",
+          "value": "",
+          "minWait": 13,
+          "maxWait": 18
+        }
+      ]
+    },
+    {
+      "url": "https://hiredesk-job-bank.blogspot.com/",
+      "minWaitAfterNav": 13,
+      "maxWaitAfterNav": 21,
+      "actions": [
+        {
+          "type": "click-xpath",
+          "value": "/html/body/div[2]/div[7]/div/div/div/div[1]/div[1]/div/div/div[2]/div[1]/div/a",
+          "minWait": 12,
+          "maxWait": 19
+        },
+        {
+          "type": "click-xpath",
+          "value": "/html/body/div[2]/div[7]/div/div/div/div[1]/div[1]/div/div/div[2]/div[1]/div/a",
+          "minWait": 12,
+          "maxWait": 19
+        },
+        {
+          "type": "pop-under-click",
+          "value": "",
+          "minWait": 13,
+          "maxWait": 20
+        },
+        {
+          "type": "pop-under-click",
+          "value": "",
+          "minWait": 12,
+          "maxWait": 19
+        }
+      ]
+    },
+    {
+      "url": "https://www.daylytab.com.ng/2024/12/san-francisco-hit-with-tornado-warning.html",
+      "minWaitAfterNav": 10,
+      "maxWaitAfterNav": 17,
+      "actions": [
+        {
+          "type": "click-xpath",
+          "value": "/html/body/div[2]/div[9]/div[1]/div/div[1]/div[1]/div/div/div[1]/div[1]/div/article/div/div[1]/span/div[1]/a/img",
+          "minWait": 12,
+          "maxWait": 21
+        },
+        {
+          "type": "click-similar-links",
+          "value": "https://hiredesk-job-bank.blogspot.com/",
+          "minWait": 12,
+          "maxWait": 21
+        },
+        {
+          "type": "pop-under-click",
+          "value": "",
+          "minWait": 13,
+          "maxWait": 20
+        },
+        {
+          "type": "pop-under-click",
+          "value": "",
+          "minWait": 12,
+          "maxWait": 18
+        }
+      ]
+    },
+    {
+      "url": "https://www.daylytab.com.ng/2024/12/san-francisco-hit-with-tornado-warning.html",
+      "minWaitAfterNav": 13,
+      "maxWaitAfterNav": 21,
+      "actions": [
+        {
+          "type": "click-xpath",
+          "value": "/html/body/div[2]/div[9]/div[1]/div/div[1]/div[1]/div/div/div[1]/div[1]/div/article/div/b/span/a",
+          "minWait": 12,
+          "maxWait": 19
+        },
+        {
+          "type": "click-similar-links",
+          "value": "https://hiredesk-job-bank.blogspot.com/",
+          "minWait": 12,
+          "maxWait": 19
+        },
+        {
+          "type": "pop-under-click",
+          "value": "",
+          "minWait": 13,
+          "maxWait": 20
+        },
+        {
+          "type": "pop-under-click",
+          "value": "",
+          "minWait": 12,
+          "maxWait": 19
+        }
+      ]
+    },
+    {
+      "url": "https://www.profitableratecpm.com/uiu5k0b3a?key=383bca742beaf0f9e4fd73baf5059afb",
+      "minWaitAfterNav": 14,
+      "maxWaitAfterNav": 21,
+      "actions": [
+        {
+          "type": "pop-under-click",
+          "value": "",
+          "minWait": 14,
+          "maxWait": 19
+        },
+        {
+          "type": "pop-under-click",
+          "value": "",
+          "minWait": 13,
+          "maxWait": 18
+        }
+      ]
+    },
+    {
+      "url": "https://www.daylytab.com.ng/2024/12/san-francisco-hit-with-tornado-warning.html",
+      "minWaitAfterNav": 13,
+      "maxWaitAfterNav": 19,
+      "actions": [
+        {
+          "type": "click-similar-links",
+          "value": "https://hiredesk-job-bank.blogspot.com/",
+          "minWait": 13,
+          "maxWait": 22
+        },
+        {
+          "type": "pop-under-click",
+          "value": "",
+          "minWait": 13,
+          "maxWait": 18
+        },
+        {
+          "type": "pop-under-click",
+          "value": "",
+          "minWait": 14,
+          "maxWait": 22
+        }
+      ]
+    },
+    {
+      "url": "https://hiredesk-job-bank.blogspot.com/",
+      "minWaitAfterNav": 13,
+      "maxWaitAfterNav": 21,
+      "actions": [
+        {
+          "type": "click-xpath",
+          "value": "/html/body/div/a/img",
+          "minWait": 12,
+          "maxWait": 19
+        },
+        {
+          "type": "click-xpath",
+          "value": "/html/body/div/a/img",
+          "minWait": 12,
+          "maxWait": 19
+        },
+        {
+          "type": "pop-under-click",
+          "value": "",
+          "minWait": 13,
+          "maxWait": 20
+        },
+        {
+          "type": "pop-under-click",
+          "value": "",
+          "minWait": 12,
+          "maxWait": 19
+        }
+      ]
+    },
+    {
+      "url": "https://www.profitableratecpm.com/uiu5k0b3a?key=383bca742beaf0f9e4fd73baf5059afb",
+      "minWaitAfterNav": 14,
+      "maxWaitAfterNav": 21,
+      "actions": [
+        {
+          "type": "pop-under-click",
+          "value": "",
+          "minWait": 14,
+          "maxWait": 19
+        },
+        {
+          "type": "pop-under-click",
+          "value": "",
+          "minWait": 13,
+          "maxWait": 18
+        }
+      ]
+    },
+    {
+      "url": "https://hiredesk-job-bank.blogspot.com/",
+      "minWaitAfterNav": 13,
+      "maxWaitAfterNav": 21,
+      "actions": [
+        {
+          "type": "click-xpath",
+          "value": "/html/body/div[2]/div[7]/div/div/div/div[1]/div[1]/div/div/div[2]/div[1]/div/a",
+          "minWait": 12,
+          "maxWait": 19
+        },
+        {
+          "type": "click-xpath",
+          "value": "/html/body/div[2]/div[7]/div/div/div/div[1]/div[1]/div/div/div[2]/div[1]/div/a",
+          "minWait": 12,
+          "maxWait": 19
+        },
+        {
+          "type": "pop-under-click",
+          "value": "",
+          "minWait": 13,
+          "maxWait": 20
+        },
+        {
+          "type": "pop-under-click",
+          "value": "",
+          "minWait": 12,
+          "maxWait": 19
+        }
+      ]
+    },
+    {
+      "url": "https://www.profitableratecpm.com/uiu5k0b3a?key=383bca742beaf0f9e4fd73baf5059afb",
+      "minWaitAfterNav": 14,
+      "maxWaitAfterNav": 21,
+      "actions": [
+        {
+          "type": "pop-under-click",
+          "value": "",
+          "minWait": 14,
+          "maxWait": 19
+        },
+        {
+          "type": "pop-under-click",
+          "value": "",
+          "minWait": 13,
+          "maxWait": 18
+        }
+      ]
+    }
+  ]
+}

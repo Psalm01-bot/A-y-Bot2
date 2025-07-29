@@ -1,0 +1,54 @@
+{
+  "android": [
+    {
+      "model": "Samsung Galaxy S25 Ultra",
+      "userAgent": "Mozilla/5.0 (Linux; Android 15; SM-S938U1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.7049.42 Mobile Safari/537.36",
+      "screenResolution": "384x854"
+    },
+    {
+      "model": "Google Pixel 9 Pro",
+      "userAgent": "Mozilla/5.0 (Linux; Android 15; Pixel 9 Pro) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.7049.42 Mobile Safari/537.36",
+      "screenResolution": "480x1080"
+    },
+    {
+      "model": "OnePlus 13",
+      "userAgent": "Mozilla/5.0 (Linux; Android 15; OnePlus 13) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.7049.42 Mobile Safari/537.36",
+      "screenResolution": "412x915"
+    },
+    {
+      "model": "Xiaomi 15 Pro",
+      "userAgent": "Mozilla/5.0 (Linux; Android 14; Mi 15 Pro) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.7049.42 Mobile Safari/537.36",
+      "screenResolution": "432x960"
+    },
+    {
+      "model": "Honor Magic7 Pro",
+      "userAgent": "Mozilla/5.0 (Linux; Android 14; Honor Magic7 Pro) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.7049.42 Mobile Safari/537.36",
+      "screenResolution": "440x980"
+    },
+    {
+      "model": "Motorola Edge 50 Ultra",
+      "userAgent": "Mozilla/5.0 (Linux; Android 14; Motorola Edge 50 Ultra) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.7049.42 Mobile Safari/537.36",
+      "screenResolution": "393x873"
+    },
+    {
+      "model": "Oppo Find X8 Pro",
+      "userAgent": "Mozilla/5.0 (Linux; Android 14; Oppo Find X8 Pro) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.7049.42 Mobile Safari/537.36",
+      "screenResolution": "412x910"
+    },
+    {
+      "model": "Samsung Galaxy Z Fold6",
+      "userAgent": "Mozilla/5.0 (Linux; Android 14; SM-F976B) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.7049.42 Mobile Safari/537.36",
+      "screenResolution": "800x1850"
+    },
+    {
+      "model": "Google Pixel 8a",
+      "userAgent": "Mozilla/5.0 (Linux; Android 14; Pixel 8a) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.7049.42 Mobile Safari/537.36",
+      "screenResolution": "412x914"
+    },
+    {
+      "model": "Nothing Phone 3a Pro",
+      "userAgent": "Mozilla/5.0 (Linux; Android 14; Nothing Phone 3a Pro) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.7049.42 Mobile Safari/537.36",
+      "screenResolution": "460x1024"
+    }
+  ]
+}

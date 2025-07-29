@@ -1,0 +1,31 @@
+{
+  "name": "Blogger_chain2",
+  "steps": [
+    {
+      "url": "https://top-ntrending.blogspot.com/",
+      "minWaitAfterNav": 17,
+      "maxWaitAfterNav": 35,
+      "actions": [
+        {
+          "type": "click-similar-links",
+          "value": "https://top-ntrending.blogspot.com/",
+          "minWait": 15,
+          "maxWait": 25
+        }
+      ]
+    },
+    {
+      "url": "https://top-ntrending.blogspot.com/",
+      "minWaitAfterNav": 20,
+      "maxWaitAfterNav": 37,
+      "actions": [
+        {
+          "type": "click-xpath",
+          "value": "xpath here",
+          "minWait": 18,
+          "maxWait": 29
+        }
+      ]
+    }
+  ]
+}

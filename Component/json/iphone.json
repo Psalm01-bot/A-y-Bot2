@@ -1,0 +1,139 @@
+{
+  "iphone": [
+    {
+      "model": "iPhone 16",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/135.0.7049.42 Mobile/15E148b Safari/604.1",
+      "screenResolution": "393x852"
+    },
+    {
+      "model": "iPhone 16 Plus",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/135.0.7049.42 Mobile/15E148b Safari/604.1",
+      "screenResolution": "430x932"
+    },
+    {
+      "model": "iPhone 16 Pro",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/135.0.7049.42 Mobile/15E148b Safari/604.1",
+      "screenResolution": "402x874"
+    },
+    {
+      "model": "iPhone 16 Pro Max",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/135.0.7049.42 Mobile/15E148b Safari/604.1",
+      "screenResolution": "440x956"
+    },
+    {
+      "model": "iPhone 16e",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/135.0.7049.42 Mobile/15E148b Safari/604.1",
+      "screenResolution": "390x844"
+    },
+    {
+      "model": "iPhone 15",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/135.0.7049.42 Mobile/15E148b Safari/604.1",
+      "screenResolution": "393x852"
+    },
+    {
+      "model": "iPhone 15 Plus",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/135.0.7049.42 Mobile/15E148b Safari/604.1",
+      "screenResolution": "430x932"
+    },
+    {
+      "model": "iPhone 15 Pro",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/135.0.7049.42 Mobile/15E148b Safari/604.1",
+      "screenResolution": "393x852"
+    },
+    {
+      "model": "iPhone 15 Pro Max",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/135.0.7049.42 Mobile/15E148b Safari/604.1",
+      "screenResolution": "430x932"
+    },
+    {
+      "model": "iPhone 14",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/135.0.7049.42 Mobile/15E148b Safari/604.1",
+      "screenResolution": "390x844"
+    },
+    {
+      "model": "iPhone 14 Plus",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/135.0.7049.42 Mobile/15E148b Safari/604.1",
+      "screenResolution": "428x926"
+    },
+    {
+      "model": "iPhone 14 Pro",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/135.0.7049.42 Mobile/15E148b Safari/604.1",
+      "screenResolution": "393x852"
+    },
+    {
+      "model": "iPhone 14 Pro Max",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/135.0.7049.42 Mobile/15E148b Safari/604.1",
+      "screenResolution": "430x932"
+    },
+    {
+      "model": "iPhone SE (3rd Gen)",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/135.0.7049.42 Mobile/15E148b Safari/604.1",
+      "screenResolution": "375x667"
+    },
+    {
+      "model": "iPhone 13 mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/135.0.7049.42 Mobile/15E148b Safari/604.1",
+      "screenResolution": "375x812"
+    },
+    {
+      "model": "iPhone 13",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/135.0.7049.42 Mobile/15E148b Safari/604.1",
+      "screenResolution": "390x844"
+    },
+    {
+      "model": "iPhone 13 Pro",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/135.0.7049.42 Mobile/15E148b Safari/604.1",
+      "screenResolution": "390x844"
+    },
+    {
+      "model": "iPhone 13 Pro Max",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/135.0.7049.42 Mobile/15E148b Safari/604.1",
+      "screenResolution": "428x926"
+    },
+    {
+      "model": "iPhone 12 mini",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/135.0.7049.42 Mobile/15E148b Safari/604.1",
+      "screenResolution": "375x812"
+    },
+    {
+      "model": "iPhone 12",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/135.0.7049.42 Mobile/15E148b Safari/604.1",
+      "screenResolution": "390x844"
+    },
+    {
+      "model": "iPhone 12 Pro",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/135.0.7049.42 Mobile/15E148b Safari/604.1",
+      "screenResolution": "390x844"
+    },
+    {
+      "model": "iPhone 12 Pro Max",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/135.0.7049.42 Mobile/15E148b Safari/604.1",
+      "screenResolution": "428x926"
+    },
+    {
+      "model": "iPhone 11",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/135.0.7049.42 Mobile/15E148b Safari/604.1",
+      "screenResolution": "414x896"
+    },
+    {
+      "model": "iPhone 11 Pro",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/135.0.7049.42 Mobile/15E148b Safari/604.1",
+      "screenResolution": "375x812"
+    },
+    {
+      "model": "iPhone 11 Pro Max",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/135.0.7049.42 Mobile/15E148b Safari/604.1",
+      "screenResolution": "414x896"
+    },
+    {
+      "model": "iPhone SE (2nd Gen)",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/135.0.7049.42 Mobile/15E148b Safari/604.1",
+      "screenResolution": "375x667"
+    },
+    {
+      "model": "iPhone XS Max",
+      "userAgent": "Mozilla/5.0 (iPhone; CPU iPhone OS 18_4 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/135.0.7049.42 Mobile/15E148b Safari/604.1",
+      "screenResolution": "414x896"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "blogger",
+  "url": "https://hiredesk-job-bank.blogspot.com/",
+  "actions": [
+    {
+      "type": "pop-under-click",
+      "value": "",
+      "minWait": 9,
+      "maxWait": 18
+    },
+    {
+      "type": "pop-under-click",
+      "value": "",
+      "minWait": 16,
+      "maxWait": 32
+    }
+  ]
+}

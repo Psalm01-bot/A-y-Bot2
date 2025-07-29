@@ -1,0 +1,39 @@
+{
+  "mac": [
+    {
+      "model": "MacBook Pro (14-inch, 2023)",
+      "screenResolution": "3024 x 1964",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 14_4_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.7049.42 Safari/537.36"
+    },
+    {
+      "model": "MacBook Pro (16-inch, 2023)",
+      "screenResolution": "3456 x 2234",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 14_4_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.7049.42 Safari/537.36"
+    },
+    {
+      "model": "MacBook Air (M2, 2022)",
+      "screenResolution": "2560 x 1664",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 14_4_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.7049.42 Safari/537.36"
+    },
+    {
+      "model": "iMac (24-inch, M1, 2021)",
+      "screenResolution": "4480 x 2520",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 14_4_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.7049.42 Safari/537.36"
+    },
+    {
+      "model": "MacBook Pro (13-inch, M1, 2020)",
+      "screenResolution": "2560 x 1600",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 14_4_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.7049.42 Safari/537.36"
+    },
+    {
+      "model": "MacBook Air (M1, 2020)",
+      "screenResolution": "2560 x 1600",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 14_4_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.7049.42 Safari/537.36"
+    },
+    {
+      "model": "iMac (27-inch, 2020)",
+      "screenResolution": "5120 x 2880",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 14_4_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.7049.42 Safari/537.36"
+    }
+  ]
+}
